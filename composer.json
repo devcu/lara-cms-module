@@ -1,34 +1,21 @@
 {
-    "name": "winter/wn-cms-module",
-    "type": "winter-module",
-    "description": "CMS module for Winter CMS",
-    "homepage": "https://wintercms.com",
-    "keywords": ["winter cms", "winter", "cms"],
+    "name": "devcu/lara-backend-module",
+    "type": "devcu-module",
+    "description": "Backend module for LaraLips CMS",
+    "homepage": "https://devcu.com",
+    "keywords": ["cms", "laralips", "backend"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Alexey Bobkov",
-            "email": "aleksey.bobkov@gmail.com",
-            "role": "Original Author"
-        },
-        {
-            "name": "Samuel Georges",
-            "email": "daftspunky@gmail.com",
-            "role": "Original Author"
-        },
-        {
-            "name": "Luke Towers",
-            "email": "wintercms@luketowers.ca",
-            "role": "Lead Maintainer"
+            "name": "Gary Cornell",
+            "email": "gary@devcu.com",
+            "role": "Refactor Author"
         }
     ],
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.3",
         "composer/installers": "~1.11.0",
-        "laravel/framework": "^9.1"
-    },
-    "replace": {
-        "october/cms": "1.1.*"
+        "laravel/framework": "^11.1"
     },
     "autoload": {
         "psr-4": {
